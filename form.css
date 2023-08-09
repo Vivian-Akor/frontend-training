@@ -1,0 +1,30 @@
+:root {
+    --oldPixelSize: 100px;
+    --newPixelSize: 200px;
+    --borderProp: 2px solid green; 
+}
+input {
+    border: var(--borderProp);
+}
+
+.box {
+    height: var(--oldPixelSize);
+    width: var(--oldPixelSize);
+    background-color: purple;
+}
+
+.box:hover {
+    background-color: yellow;
+    height: var(--newPixelSize);
+    width: var(--newPixelSize);
+}
+h1:hover {
+    font-family: 'Courier New', Courier, monospace;
+}
+.i-button:active {
+    background-color: grey
+}
+
+.i-text:focus {
+    background-color: yellow;
+}
